@@ -55,6 +55,35 @@ MySQL.ready(function()
 		end)
 	end)
 	
+print([[                                                                                                    
+    
+ 
+                                          :!J5P5                                                    
+                                      :^7P#GJ?~:                                                    
+        ~^                .!!      ^PGGB&&^                        .                                
+       :&#:     ^:        7@P.  .  :?!.:G&.          ?5.          ?PPP5YYY~             :?~         
+       .&B:.~?PB@Y.       J@5  !#J     :G&.          B@~           :~!7?Y&P:      .^.  :#&~         
+      .~&@BPBY7#@~        J@J  ?@5     :G&.          #@:   YGBBBGPY7.   ^BP:      ~#B~.Y@7          
+ .^7YBPG@#!:  ^#Y.       :P#!  ?@Y     .Y&!      :!JB@@^   :^~!777#&~   ~BP:       :5&B&?    :!:    
+?GPPJ~..&B.   !&J.       :P&!  ?@Y     .?@P  .~JPBG??@Y           GB^   ~BP:        :B@P   ^5#G!    
+.:     :&B: .^?&Y: ..    :P&!  ?@Y     :J@@P5#G5!:  5@~          .GB^   ~BP:       ^G&P#Y~5&G!      
+       :&B: :JGB#BBBBG!  :P#!  ?@Y    :P#@B!~:      &@^          .GB^   ~#P:  .~~^7##^ 7@@G~        
+       :&B:    ..::::^:   J@J  ?@Y     .?&7         #@^          .GB^   ~BP:  ^YG&@&#GGB&&P         
+       :&B:               J@5  ?@Y       :         .&&:  ^^:..    GB^    5#!   .Y&Y..^~~.!&B^       
+       .#&:               !&P. ?@Y                 :@P  ^G#&#BGGY?##~    5@?  .Y@J        :B@7      
+        G@~               ~BG. ?@Y                 :@P.    ?@P??JYP?.    ?@5  7&Y          .J@P:    
+        P@~               .5#~ ?@Y                 :@P.    !&?     .::::^7#B^ ::             ~#&7   
+        P@~               .Y&! ?@Y                 :@P.    !&?.    ?B&#GGPPY^                 .?&B! 
+        P@~               .Y&! ?@Y                 Y@?     !&J.     5@? ~7~.                    :Y5 
+        P@~               .5&! 5&!                 !G~     J@7      P@! ~5GBG7.                     
+        G@!                Y@? !Y:                         #@^     ^#B^    :??:                     
+        YG^                ^?~                            ^&P.     :J!                              
+                                                          !G!   
+                                                          
+                                  ╔══════════════════════════════╗  
+                                  ║         HYPRAEXTENDED        ║
+                                  ╚══════════════════════════════╝                                                       
+]])
 	print('[es_extended] [^2INFO^7] ESX ^6HYPRA^7 EXTENDED FOR 1.2 & LEGACY')
 end)
 

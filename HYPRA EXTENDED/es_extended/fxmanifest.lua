@@ -2,11 +2,12 @@ fx_version 'adamant'
 
 game 'gta5'
 
-description 'ES Extended'
+description 'HYPRAEXTENDED'
 
-version '1.2.0'
+version '1.3.0'
 
 server_scripts {
+	'@oxmysql/lib/MySQL.lua',
 	'@async/async.lua',
 	'@mysql-async/lib/MySQL.lua',
 	
@@ -18,6 +19,7 @@ server_scripts {
 	
 	'server/common.lua',
 	'server/classes/player.lua',
+	'server/classes/status.lua',
 	'server/functions.lua',
 	'server/paycheck.lua',
 	'server/main.lua',

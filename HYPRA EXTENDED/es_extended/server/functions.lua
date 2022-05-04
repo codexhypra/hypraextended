@@ -294,7 +294,22 @@ ESX.DoesJobExist            = function(job , grade)
 	return false
 end
 
-Framework.Functions.IsPlayerBanned = function(source)
+
+ESX.GetExtendedPlayers = function(key, val)
+    local xPlayers = {}
+    for k, v in pairs(ESX.Players) do
+        if key then
+            if (key == 'job' and v.job.name == val) or v[key] == val then
+                table.insert(xPlayers, v)
+            end
+        else
+            table.insert(xPlayers, v)
+        end
+    end
+    return xPlayers
+end
+
+--[[Framework.Functions.IsPlayerBanned = function(source)
 	local IsBanned = nil
 	local Message = nil
 	Framework.Functions.ExecuteSql(true, "SELECT * FROM `white_playersinfo` WHERE `steam` = '"..GetPlayerIdentifiers(source)[1].."' OR `license` = '"..GetPlayerIdentifiers(source)[2].."' OR `license` = '"..GetPlayerIdentifiers(source)[3].."'", function(result)
@@ -306,4 +321,4 @@ Framework.Functions.IsPlayerBanned = function(source)
 		end
 	end)
 	return IsBanned, Message
-end
+end]]
